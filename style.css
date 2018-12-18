@@ -1,0 +1,68 @@
+body{
+    background-image: url("./Star-Wars-Backgrounds.jpg");
+    height: auto;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: 1;
+    
+}
+
+.content {
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    margin-left: 20px;
+    margin-right: 20px;
+    overflow: auto;
+  }
+
+.background-image {  
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
+  }
+
+.jumbotron{
+    height: 200px;
+}
+
+
+#searchText{
+    opacity: 0.5;
+}
+
+
+
+.well{
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+}
+
+#movies img, #movie img {
+    width: 100%;
+}
+
+#movies .well{
+    background-color: white;
+    border-radius: 5px;
+}
+
+
+@media(min-width:320px){
+#movies .col-md-3 .well{
+    margin: 10px;
+    padding: 8px;
+    height: 360px;
+    
+}
+
+#movies .col-md-3 img{
+    height: 240px;
+}
+}
